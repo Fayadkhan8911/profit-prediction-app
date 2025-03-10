@@ -24,7 +24,6 @@ st.write('Enter the details of your startup and we will predict the profit for y
 
 # Get the user input
 state=st.selectbox('State', ['Karnataka', 'Gujarat', 'Maharshtra'])
-rnd=st.number_input('R&D Spend',max_value=200000.0, value=30000.0)
 admin=st.number_input('Administration Spend',max_value=200000.0, value=10000.0)
 marketing=st.number_input('Marketing Spend',max_value=500000.0, value=10000.0)
 
